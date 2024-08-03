@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
@@ -23,15 +24,11 @@ function App() {
     
       </div>
       </div>
-      <h3 className='golden'>Thor Coin</h3>
-      <div className="card">
-       
-        <p className='golden'>
-       tap and earn rewards
-        </p>
-      </div>
       <div className='footer golden'>
-        <span>Home</span>Earn<span></span>Reward<span>Wallet</span>
+        <span className='btn'>🏠 Home</span>
+        <span className='btn'>💰 Earn</span>
+        <span className='btn'>🏆 Reward</span>
+        <span className='btn'> 💵 Wallet</span>
       </div>
     </>
   )

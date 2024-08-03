@@ -30,6 +30,7 @@ body {
   align-items: center;
   background-image: url('../public/odin.webp');
   background-size: cover;
+  height: 100vh;
 }
 
 h1 {
@@ -69,7 +70,6 @@ button:focus-visible {
   }
 }
 .circle{
-  margin-top: 80px;
   width: 50vw;
   height: 50vw;
   border-radius: 50%;
@@ -120,11 +120,15 @@ button:focus-visible {
   left: 0;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  font-size: large;
 
 }
 .scale{
  animation:linear grow 1 ease-in-out ;
+}
+.btn{
+  box-shadow: 1px 1px 3px 1px gold;
 }
 @keyframes grow {
   0%{

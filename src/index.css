@@ -102,7 +102,6 @@ button:focus-visible {
 .float{
   float: right;
   font-size: 24px;
-  color: #f58514;
   margin-right: 15px;
 }
 .topT{
@@ -110,7 +109,10 @@ button:focus-visible {
   margin-right: 15px;
 }
 .golden{
-  color: #f58514;
+  color: #ffaa55;
+}
+.white{
+  color: white;
 }
 .footer{
   height: 70px;
@@ -130,6 +132,13 @@ button:focus-visible {
 }
 .btn{
   box-shadow: 1px 1px 3px 1px gold;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 @keyframes grow {
   0%{

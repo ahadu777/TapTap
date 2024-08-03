@@ -78,6 +78,7 @@ button:focus-visible {
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 1px 1px 5px 5px gold;
+  animation: rotate 10s  linear infinite;
 }
 .row{
   display: flex;
@@ -139,5 +140,26 @@ button:focus-visible {
   }
   100%{
     scale: 1;
+  }
+}
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  20%{
+    transform: rotate(90deg);
+
+  }
+  40%{
+    transform: rotate(180deg);
+  }
+  60%{
+    transform: rotate(270deg);
+  }
+  80%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
   }
 }

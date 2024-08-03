@@ -26,10 +26,10 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   justify-content: center;
   align-items: center;
+  background-image: url('../public/odin.webp');
+  background-size: cover;
 }
 
 h1 {
@@ -69,19 +69,26 @@ button:focus-visible {
   }
 }
 .circle{
+  margin-top: 80px;
   width: 50vw;
-  aspect-ratio: 1;
+  height: 50vw;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #535bf2, #f0830e);
+  background-color: #747bff;
+  background-image: url('../public/logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 5px 5px gold;
 }
 .row{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 70vh;
+  width: 100vw;
 }
 .nav{
   height: 70px;
-  background: #535bf2;
+  background: #000000;
   width: 100%;
   position: fixed;
   top: 0;
@@ -93,11 +100,40 @@ button:focus-visible {
 }
 .float{
   float: right;
-  font-size: 42px;
-  color: #f2eae2;
+  font-size: 24px;
+  color: #f58514;
   margin-right: 15px;
 }
 .topT{
   color: #ffffff;
   margin-right: 15px;
+}
+.golden{
+  color: #f58514;
+}
+.footer{
+  height: 70px;
+  background: #000000;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.scale{
+ animation:linear grow 1 ease-in-out ;
+}
+@keyframes grow {
+  0%{
+    scale: 1;
+  }
+  50%{
+    scale: 1.2;
+  }
+  100%{
+    scale: 1;
+  }
 }

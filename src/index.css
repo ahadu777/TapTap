@@ -115,23 +115,28 @@ button:focus-visible {
   color: white;
 }
 .footer{
-  height: 70px;
+  height: 50px;
   background: #000000;
   width: 100%;
   position: fixed;
   bottom: 0;
-  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-size: large;
-
+bottom: 30;
 }
 .scale{
  animation:linear grow 1 ease-in-out ;
 }
 .btn{
+  margin: 3px;
+  border-radius: 6px;
   box-shadow: 1px 1px 3px 1px gold;
+}
+.btn:hover{
+  background:  white;
+  color: black;
 }
 .flex{
   display: flex;
